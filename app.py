@@ -8,10 +8,10 @@ ENV = 'prod'
 
 if ENV == 'dev':
     app.debug = True
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:2906@localhost/feedback'
+    app.config['SQLALCHEMY_DATABASE_URI'] = ''
 else:
     app.debug = False
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://dxmvghwqfvtrsr:213006348281db817e2b66164bf8474c8234c3a4159ac7e3dc4fd9de5780d896@ec2-54-208-96-16.compute-1.amazonaws.com:5432/den4tsc6kdko6f'
+    app.config['SQLALCHEMY_DATABASE_URI'] = ''
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
