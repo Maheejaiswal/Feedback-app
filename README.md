@@ -7,7 +7,6 @@ Now that we are heading back to school we see new testing methods implementing. 
 I built an application helpful for students and organizations i.e. Feedback app with :-
 ## Tech
 
-- [jQuery] - duh
 - Python Flask
 - PostgreSQL
 - Mailtrap.io
